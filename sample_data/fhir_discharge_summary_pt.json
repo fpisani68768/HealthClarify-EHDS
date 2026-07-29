@@ -1,0 +1,1051 @@
+{
+  "resourceType": "Bundle",
+  "id": "healthclarify-ips-pt-01",
+  "type": "document",
+  "timestamp": "2026-03-18T14:30:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b",
+      "resource": {
+        "name": [
+          {
+            "use": "official",
+            "given": [
+              "João",
+              "Manuel"
+            ],
+            "family": "Silva"
+          }
+        ],
+        "birthDate": "1962-03-15",
+        "gender": "male",
+        "resourceType": "Patient",
+        "id": "patient"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5cec1e46-f651-5395-9354-73dcacfb6ad7",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "57054005",
+              "display": "Acute myocardial infarction"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I21.0",
+              "display": "ST elevation (STEMI) myocardial infarction of anterior wall"
+            }
+          ],
+          "text": "Enfarte agudo do miocárdio transmural anterior com elevação do segmento ST (STEMI)"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-stemi"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf7bf40a-3c8e-5acb-9551-e66fe431517a",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Essential hypertension"
+            }
+          ],
+          "text": "Hipertensão arterial essencial"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-0"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e539da1f-10f6-5fab-8e8a-7845012d2980",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "text": "Diabetes mellitus tipo 2 sem complicações"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ef92120-c8af-50b4-8b7f-2af68a9aa79c",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "267434003",
+              "display": "Mixed hyperlipidemia"
+            }
+          ],
+          "text": "Hiperlipidemia mista"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-2"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59cb1975-b9b9-523a-a994-be17fe02cbd5",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "77176002",
+              "display": "Tobacco user"
+            }
+          ],
+          "text": "Perturbação por uso de tabaco (fumador ativo, ~30 maços-ano)"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7c9e1108-7927-5ec6-b90a-611c404af9b9",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430617002",
+              "display": "Family history of coronary artery disease"
+            }
+          ],
+          "text": "História familiar de doença arterial coronária prematura"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-4"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8ca64401-5c8d-5eb6-a0c5-00e03eebae33",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "91936005",
+              "display": "Allergy to penicillin"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "note": [
+          {
+            "text": "Penicilina — erupção cutânea maculopapular difusa (documentada 2018)"
+          }
+        ],
+        "resourceType": "AllergyIntolerance",
+        "id": "allergy-penicillin"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7daab77d-7b2d-5cc8-bae4-c8ea381445d6",
+      "resource": {
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "415070008",
+              "display": "Percutaneous coronary intervention"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "performedDateTime": "2026-03-18",
+        "note": [
+          {
+            "text": "Intervenção coronária percutânea (ICP) primária por via radial direita"
+          },
+          {
+            "text": "Implantação de stent farmacológico (DES) na artéria descendente anterior esquerda (DA) proximal"
+          },
+          {
+            "text": "Fluxo TIMI 3 restaurado após ICP"
+          },
+          {
+            "text": "Terapia antiagregante plaquetária dupla (DAPT) iniciada (aspirina + ticagrelor)"
+          },
+          {
+            "text": "Reabilitação cardíaca Fase I iniciada antes da alta"
+          }
+        ],
+        "resourceType": "Procedure",
+        "id": "procedure-pci"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ff68e60c-ea8f-506b-b3d5-e973e87de1cc",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin I.cardiac [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 14200,
+          "unit": "ng/L",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "< 14"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-0"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e1cf508-ad7e-56af-a84e-969850b5ca95",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 245,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "< 200"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c692bfc0-168e-5208-ae65-1b9321675666",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18262-6",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 160,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "< 100"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-2"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:848970d2-8426-5035-86ee-1872ab2003ef",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 32,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "> 40"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e83f8a68-ac1b-59cd-b3f0-cb02738bec2b",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 7.8,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "< 6,5"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-4"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:760122d5-33c4-58a0-bc78-b9a0a76f3bb2",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 1.1,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "0,6–1,2"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-5"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:03c197e0-aec1-5760-943a-c2dfe8d135e3",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "62238-1",
+              "display": "Glomerular filtration rate/1.73 sq M.predicted"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 68,
+          "unit": "mL/min/1,73m²",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "> 60"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7747440e-3780-5592-ae9f-a997a0d5403c",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "88020-3",
+              "display": "Left ventricular Ejection fraction"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 45,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "> 55"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-7"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:53c528ec-adff-5b64-8c2c-f9a0000fce55",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AC06",
+              "display": "Acetylsalicylic acid"
+            }
+          ],
+          "text": "Aspirina 100 mg por dia"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "dosageInstruction": [
+          {
+            "text": "100 mg por dia",
+            "timing": {
+              "code": {
+                "text": "Manhã"
+              }
+            },
+            "patientInstruction": "Antiagregante — previne coágulos sanguíneos"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-0"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f0a3327e-2ad4-573e-af0e-2cc48d3fc22c",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AC24",
+              "display": "Ticagrelor"
+            }
+          ],
+          "text": "Ticagrelor 90 mg duas vezes ao dia"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "dosageInstruction": [
+          {
+            "text": "90 mg duas vezes ao dia",
+            "timing": {
+              "code": {
+                "text": "Manhã e noite"
+              }
+            },
+            "patientInstruction": "Antiagregante — protege o novo stent"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af69cd18-4f7b-59d7-ae35-e3cbb6d8151e",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C10AA05",
+              "display": "Atorvastatin"
+            }
+          ],
+          "text": "Atorvastatina 80 mg por dia"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "dosageInstruction": [
+          {
+            "text": "80 mg por dia",
+            "timing": {
+              "code": {
+                "text": "Ao deitar"
+              }
+            },
+            "patientInstruction": "Reduz o colesterol e estabiliza as placas"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-2"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9cb24ba1-83cf-519b-9a9a-858f502b7b20",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09AA05",
+              "display": "Ramipril"
+            }
+          ],
+          "text": "Ramipril 2,5 mg por dia"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "dosageInstruction": [
+          {
+            "text": "2,5 mg por dia",
+            "timing": {
+              "code": {
+                "text": "Manhã"
+              }
+            },
+            "patientInstruction": "Protege o coração e reduz a pressão arterial"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7f397260-ab1e-5f0e-bfef-03b9296e91c0",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C07AB02",
+              "display": "Metoprolol"
+            }
+          ],
+          "text": "Metoprolol 25 mg por dia"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "dosageInstruction": [
+          {
+            "text": "25 mg por dia",
+            "timing": {
+              "code": {
+                "text": "Manhã"
+              }
+            },
+            "patientInstruction": "Reduz a frequência cardíaca e protege o coração"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-4"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e0d4bc3f-bce2-5a50-b2d9-0564bcf2d9c5",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10BA02",
+              "display": "Metformin"
+            }
+          ],
+          "text": "Metformina 1000 mg duas vezes ao dia"
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "dosageInstruction": [
+          {
+            "text": "1000 mg duas vezes ao dia",
+            "timing": {
+              "code": {
+                "text": "Manhã e noite"
+              }
+            },
+            "patientInstruction": "Continuação do tratamento da diabetes"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-5"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:901803ed-e39d-5d7f-b120-5175f694cea1",
+      "resource": {
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8542d164-f6f5-506e-b5bb-c7e220f3794b"
+        },
+        "date": "2026-03-18T14:30:00Z",
+        "title": "Resumo Internacional do Paciente — Nota de Alta Hospitalar",
+        "author": [
+          {
+            "display": "University Hospital Cardiology Department"
+          }
+        ],
+        "section": [
+          {
+            "title": "Medications",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:53c528ec-adff-5b64-8c2c-f9a0000fce55"
+              },
+              {
+                "reference": "urn:uuid:f0a3327e-2ad4-573e-af0e-2cc48d3fc22c"
+              },
+              {
+                "reference": "urn:uuid:af69cd18-4f7b-59d7-ae35-e3cbb6d8151e"
+              },
+              {
+                "reference": "urn:uuid:9cb24ba1-83cf-519b-9a9a-858f502b7b20"
+              },
+              {
+                "reference": "urn:uuid:7f397260-ab1e-5f0e-bfef-03b9296e91c0"
+              },
+              {
+                "reference": "urn:uuid:e0d4bc3f-bce2-5a50-b2d9-0564bcf2d9c5"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:8ca64401-5c8d-5eb6-a0c5-00e03eebae33"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5cec1e46-f651-5395-9354-73dcacfb6ad7"
+              },
+              {
+                "reference": "urn:uuid:bf7bf40a-3c8e-5acb-9551-e66fe431517a"
+              },
+              {
+                "reference": "urn:uuid:e539da1f-10f6-5fab-8e8a-7845012d2980"
+              },
+              {
+                "reference": "urn:uuid:2ef92120-c8af-50b4-8b7f-2af68a9aa79c"
+              },
+              {
+                "reference": "urn:uuid:59cb1975-b9b9-523a-a994-be17fe02cbd5"
+              },
+              {
+                "reference": "urn:uuid:7c9e1108-7927-5ec6-b90a-611c404af9b9"
+              }
+            ]
+          },
+          {
+            "title": "History of Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:7daab77d-7b2d-5cc8-bae4-c8ea381445d6"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:ff68e60c-ea8f-506b-b3d5-e973e87de1cc"
+              },
+              {
+                "reference": "urn:uuid:2e1cf508-ad7e-56af-a84e-969850b5ca95"
+              },
+              {
+                "reference": "urn:uuid:c692bfc0-168e-5208-ae65-1b9321675666"
+              },
+              {
+                "reference": "urn:uuid:848970d2-8426-5035-86ee-1872ab2003ef"
+              },
+              {
+                "reference": "urn:uuid:e83f8a68-ac1b-59cd-b3f0-cb02738bec2b"
+              },
+              {
+                "reference": "urn:uuid:760122d5-33c4-58a0-bc78-b9a0a76f3bb2"
+              },
+              {
+                "reference": "urn:uuid:03c197e0-aec1-5760-943a-c2dfe8d135e3"
+              },
+              {
+                "reference": "urn:uuid:7747440e-3780-5592-ae9f-a997a0d5403c"
+              }
+            ]
+          },
+          {
+            "title": "History of Past Illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "History of Past illness Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<p>Hipertenso conhecido há 5 anos em monoterapia; controlo tensional subótimo nos últimos 12 meses.</p>\n<p>Diabetes mellitus tipo 2 diagnosticado há 8 anos; sob metformina 1000 mg BID.</p>\n<p>Fumador ativo (~30 maços-ano); recusou cessação anteriormente.</p>\n<p>Sem antecedentes de enfarte do miocárdio, AVC ou doença renal crónica.</p>\n<p>Pai falecido por morte súbita cardíaca aos 60 anos.</p>"
+            }
+          },
+          {
+            "title": "Clinical Narrative",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55112-5",
+                  "display": "Document Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<p>Doente do sexo masculino, 64 anos, fumador, com hipertensão e diabetes tipo 2, admitido no Serviço de Urgência por dor torácica retroesternal intensa com irradiação ao membro superior esquerdo, diaforese e dispneia progressiva em esforço mínimo, com cerca de 90 minutos de evolução. O ECG revelou elevação do segmento ST ≥2 mm nas derivações V1-V4, compatível com enfarte agudo do miocárdio anterior com supradesnivelamento ST (STEMI). O doente foi transportado de emergência para o laboratório de hemodinâmica. A coronariografia revelou oclusão trombótica de 95% da artéria descendente anterior esquerda (DA) proximal. Foi implantado com sucesso um stent farmacológico, restaurando fluxo TIMI 3. O pico de troponina I de alta sensibilidade atingiu 14.200 ng/L. O ecocardiograma transtorácico pós-procedimento revelou fração de ejeção ventricular esquerda ligeiramente reduzida (45%) com hipocinesia da parede anterior e do septo interventricular. A dupla terapêutica antiagregante foi mantida. O doente permaneceu hemodinamicamente estável, sem recorrência de dor torácica ou arritmias, tendo alta hospitalar com follow-up cardiológico estruturado e integração no programa de reabilitação cardíaca.</p>"
+            }
+          },
+          {
+            "title": "Plan of Care",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18776-5",
+                  "display": "Plan of care Note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<p><strong>Follow-up:</strong> Consulta externa de cardiologia em 14 dias. Registo diário da pressão arterial no domicílio. Consulta de cessação tabágica em 7 dias. Reabilitação cardíaca Fase II com início em 3 semanas. Repetir perfil lipídico, HbA1c e função renal em 3 meses.</p><p><strong>Warning symptoms (call 112):</strong></p><ul><li>Dor ou pressão torácica recorrente com duração superior a 5 minutos</li><li>Falta de ar em repouso ou agravamento noturno</li><li>Tonturas súbitas, desmaio ou pré-síncope</li><li>Inchaço súbito dos tornozelos ou pernas</li><li>Hemorragia que não para em 10 minutos (sob terapêutica antiagregante)</li><li>Qualquer novo sintoma neurológico (fraqueza, fala arrastada, perda de visão)</li></ul>"
+            }
+          }
+        ],
+        "resourceType": "Composition",
+        "id": "composition"
+      }
+    }
+  ]
+}

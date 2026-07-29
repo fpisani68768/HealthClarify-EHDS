@@ -1,0 +1,1050 @@
+{
+  "resourceType": "Bundle",
+  "id": "healthclarify-ips-fi-01",
+  "type": "document",
+  "timestamp": "2026-03-18T14:30:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19",
+      "resource": {
+        "name": [
+          {
+            "use": "official",
+            "given": [
+              "Matti"
+            ],
+            "family": "Virtanen"
+          }
+        ],
+        "birthDate": "1962-03-15",
+        "gender": "male",
+        "resourceType": "Patient",
+        "id": "patient"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c3f4af22-4b21-5278-8729-cecfaa7f1ac9",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "57054005",
+              "display": "Acute myocardial infarction"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I21.0",
+              "display": "ST elevation (STEMI) myocardial infarction of anterior wall"
+            }
+          ],
+          "text": "Akuutti transmuraalinen anteriorinen ST-nousuinfarkti (STEMI)"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-stemi"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4debbbbf-8321-5968-8695-3679c14f7846",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Essential hypertension"
+            }
+          ],
+          "text": "Essentiaalinen hypertensio"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-0"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d040818b-be6c-5c97-8b77-a3775ea9cce3",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "text": "Tyypin 2 diabetes ilman komplikaatioita"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4515b8b4-f0c9-595c-903d-740f2a19c181",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "267434003",
+              "display": "Mixed hyperlipidemia"
+            }
+          ],
+          "text": "Sekamuotoinen hyperlipidemia"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-2"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:95f63608-434f-58d2-ae64-191c24e44488",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "77176002",
+              "display": "Tobacco user"
+            }
+          ],
+          "text": "Tupakointihäiriö (aktiivinen tupakoitsija, ~30 askivuotta)"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5041b9f-e684-5635-b2a9-eee006b5b0e0",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430617002",
+              "display": "Family history of coronary artery disease"
+            }
+          ],
+          "text": "Suvussa esiintynyt varhaista sepelvaltimotautia"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "recordedDate": "2026-03-18",
+        "resourceType": "Condition",
+        "id": "condition-sec-4"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59ab22d8-f4fd-524d-bd3f-62048146ea67",
+      "resource": {
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "91936005",
+              "display": "Allergy to penicillin"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "note": [
+          {
+            "text": "Penisilliini — diffuusi makulopapulaarinen ihottuma (dokumentoitu 2018)"
+          }
+        ],
+        "resourceType": "AllergyIntolerance",
+        "id": "allergy-penicillin"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f027b7c4-4db1-578c-9c42-ab2b6c081e86",
+      "resource": {
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "415070008",
+              "display": "Percutaneous coronary intervention"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "performedDateTime": "2026-03-18",
+        "note": [
+          {
+            "text": "Primaari pallolaajennus (PCI) oikean rannevaltimon kautta"
+          },
+          {
+            "text": "Lääkestentti (DES) asennettu vasempaan etummaiseen laskevaan sepelvaltimoon (LAD) proksimaalisesti"
+          },
+          {
+            "text": "TIMI 3 -virtaus palautettu PCI:n jälkeen"
+          },
+          {
+            "text": "Kaksoisverihiutale-estolääkitys (DAPT) aloitettu (aspiriini + tikagrelori)"
+          },
+          {
+            "text": "Sydänkuntoutuksen vaihe I aloitettu ennen kotiutumista"
+          }
+        ],
+        "resourceType": "Procedure",
+        "id": "procedure-pci"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aeee191d-81aa-55d2-ba3e-601addb4efe9",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin I.cardiac [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 14200,
+          "unit": "ng/L",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "< 14"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-0"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8f03eff-5372-5cd9-a0ba-e542a3217346",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 245,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "< 200"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e9a840a3-e583-5306-b830-35b1164def61",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18262-6",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 160,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "< 100"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-2"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:807edde5-c431-54ac-bbe3-093856f663c3",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 32,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "> 40"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:37b00290-3aa7-5f94-b133-b013811a71bd",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 7.8,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "< 6,5"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-4"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b1203a86-30a6-5fd5-be6b-139e8a656b64",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 1.1,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "0,6–1,2"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-5"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dba48a74-606a-575d-9cdf-305b7b6f070a",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "62238-1",
+              "display": "Glomerular filtration rate/1.73 sq M.predicted"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 68,
+          "unit": "mL/min/1,73m²",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "> 60"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab5b4cff-8c24-5902-a760-f6da4eef3a91",
+      "resource": {
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "88020-3",
+              "display": "Left ventricular Ejection fraction"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "effectiveDateTime": "2026-03-18",
+        "valueQuantity": {
+          "value": 45,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org"
+        },
+        "referenceRange": [
+          {
+            "text": "> 55"
+          }
+        ],
+        "resourceType": "Observation",
+        "id": "observation-7"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8c5b6a38-eb1b-5465-9937-73797c9b3dd6",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AC06",
+              "display": "Acetylsalicylic acid"
+            }
+          ],
+          "text": "Aspiriini 100 mg päivässä"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "dosageInstruction": [
+          {
+            "text": "100 mg päivässä",
+            "timing": {
+              "code": {
+                "text": "Aamulla"
+              }
+            },
+            "patientInstruction": "Verihiutale-esto — estää verihyytymiä"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-0"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8c1f7010-747e-5605-951f-4300db9659d0",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AC24",
+              "display": "Ticagrelor"
+            }
+          ],
+          "text": "Tikagrelori 90 mg kahdesti päivässä"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "dosageInstruction": [
+          {
+            "text": "90 mg kahdesti päivässä",
+            "timing": {
+              "code": {
+                "text": "Aamulla ja illalla"
+              }
+            },
+            "patientInstruction": "Verihiutale-esto — suojaa uutta stenttiä"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c89cff16-9649-5bb2-bfae-98ba462cf0ec",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C10AA05",
+              "display": "Atorvastatin"
+            }
+          ],
+          "text": "Atorvastatiini 80 mg päivässä"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "dosageInstruction": [
+          {
+            "text": "80 mg päivässä",
+            "timing": {
+              "code": {
+                "text": "Illalla"
+              }
+            },
+            "patientInstruction": "Alentaa kolesterolia ja vakauttaa plakkeja"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-2"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae4828c5-b26e-5d3b-888b-f45662abd976",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09AA05",
+              "display": "Ramipril"
+            }
+          ],
+          "text": "Ramipriili 2,5 mg päivässä"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "dosageInstruction": [
+          {
+            "text": "2,5 mg päivässä",
+            "timing": {
+              "code": {
+                "text": "Aamulla"
+              }
+            },
+            "patientInstruction": "Suojaa sydäntä ja alentaa verenpainetta"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14ff264a-79db-5d06-b15c-1c1e51736a9f",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C07AB02",
+              "display": "Metoprolol"
+            }
+          ],
+          "text": "Metoprololi 25 mg päivässä"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "dosageInstruction": [
+          {
+            "text": "25 mg päivässä",
+            "timing": {
+              "code": {
+                "text": "Aamulla"
+              }
+            },
+            "patientInstruction": "Hidastaa sykettä ja suojaa sydäntä"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-4"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe5536d0-ed4f-50a7-bb8a-76c283777a56",
+      "resource": {
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10BA02",
+              "display": "Metformin"
+            }
+          ],
+          "text": "Metformiini 1000 mg kahdesti päivässä"
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "dosageInstruction": [
+          {
+            "text": "1000 mg kahdesti päivässä",
+            "timing": {
+              "code": {
+                "text": "Aamulla ja illalla"
+              }
+            },
+            "patientInstruction": "Diabeteslääkityksen jatko"
+          }
+        ],
+        "resourceType": "MedicationRequest",
+        "id": "medication-5"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59561f5c-e73d-5c26-964b-d72ed57e3e67",
+      "resource": {
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d98d3d7f-4fe1-5fe4-8448-68e38f267e19"
+        },
+        "date": "2026-03-18T14:30:00Z",
+        "title": "Kansainvälinen potilastiedon yhteenveto — Hoitoyhteenveto",
+        "author": [
+          {
+            "display": "University Hospital Cardiology Department"
+          }
+        ],
+        "section": [
+          {
+            "title": "Medications",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:8c5b6a38-eb1b-5465-9937-73797c9b3dd6"
+              },
+              {
+                "reference": "urn:uuid:8c1f7010-747e-5605-951f-4300db9659d0"
+              },
+              {
+                "reference": "urn:uuid:c89cff16-9649-5bb2-bfae-98ba462cf0ec"
+              },
+              {
+                "reference": "urn:uuid:ae4828c5-b26e-5d3b-888b-f45662abd976"
+              },
+              {
+                "reference": "urn:uuid:14ff264a-79db-5d06-b15c-1c1e51736a9f"
+              },
+              {
+                "reference": "urn:uuid:fe5536d0-ed4f-50a7-bb8a-76c283777a56"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:59ab22d8-f4fd-524d-bd3f-62048146ea67"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c3f4af22-4b21-5278-8729-cecfaa7f1ac9"
+              },
+              {
+                "reference": "urn:uuid:4debbbbf-8321-5968-8695-3679c14f7846"
+              },
+              {
+                "reference": "urn:uuid:d040818b-be6c-5c97-8b77-a3775ea9cce3"
+              },
+              {
+                "reference": "urn:uuid:4515b8b4-f0c9-595c-903d-740f2a19c181"
+              },
+              {
+                "reference": "urn:uuid:95f63608-434f-58d2-ae64-191c24e44488"
+              },
+              {
+                "reference": "urn:uuid:f5041b9f-e684-5635-b2a9-eee006b5b0e0"
+              }
+            ]
+          },
+          {
+            "title": "History of Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f027b7c4-4db1-578c-9c42-ab2b6c081e86"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:aeee191d-81aa-55d2-ba3e-601addb4efe9"
+              },
+              {
+                "reference": "urn:uuid:e8f03eff-5372-5cd9-a0ba-e542a3217346"
+              },
+              {
+                "reference": "urn:uuid:e9a840a3-e583-5306-b830-35b1164def61"
+              },
+              {
+                "reference": "urn:uuid:807edde5-c431-54ac-bbe3-093856f663c3"
+              },
+              {
+                "reference": "urn:uuid:37b00290-3aa7-5f94-b133-b013811a71bd"
+              },
+              {
+                "reference": "urn:uuid:b1203a86-30a6-5fd5-be6b-139e8a656b64"
+              },
+              {
+                "reference": "urn:uuid:dba48a74-606a-575d-9cdf-305b7b6f070a"
+              },
+              {
+                "reference": "urn:uuid:ab5b4cff-8c24-5902-a760-f6da4eef3a91"
+              }
+            ]
+          },
+          {
+            "title": "History of Past Illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "History of Past illness Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<p>Tunnettu hypertensio 5 vuoden ajan yhdellä verenpainelääkkeellä; verenpaineen hallinta ollut heikkoa viimeiset 12 kuukautta.</p>\n<p>Tyypin 2 diabetes diagnosoitu 8 vuotta sitten; metformiini 1000 mg kahdesti päivässä.</p>\n<p>Aktiivinen tupakoitsija (~30 askivuotta); aiemmin kieltäytynyt lopettamisesta.</p>\n<p>Ei aiempaa sydäninfarktia, aivohalvausta tai kroonista munuaissairautta.</p>\n<p>Isä kuoli äkilliseen sydänkuolemaan 60-vuotiaana.</p>"
+            }
+          },
+          {
+            "title": "Clinical Narrative",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55112-5",
+                  "display": "Document Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<p>64-vuotias mies, tupakoitsija, jolla hypertensio ja tyypin 2 diabetes, saapui päivystykseen noin 90 minuuttia kestäneen voimakkaan rintalastan takaisen puristavan rintakivun vuoksi, joka säteili vasempaan yläraajaan. Lisäoireina esiintyi hikoilua ja etenevää hengenahdistusta vähäisessä rasituksessa. EKG:ssä todettiin ≥2 mm ST-nousu kytkennöissä V1-V4, mikä sopii akuuttiin anterioriseen ST-nousuinfarktiin. Potilas kuljetettiin päivystyksellisesti sydänkatetrointilaboratorioon. Sepelvaltimoiden varjoainekuvauksessa todettiin vasemman etummaisen laskevan sepelvaltimon (LAD) proksimaaliosan 95% tromboottinen tukos. Potilaalle asennettiin onnistuneesti lääkestentti ja TIMI 3 -virtaus palautui. Herkän troponiini I:n huippupitoisuus oli 14.200 ng/L. Toimenpiteen jälkeisessä transtorakaalisessa kaikututkimuksessa todettiin lievästi alentunut vasemman kammion ejektiofraktio (45%) ja etuseinämän sekä kammioväliseinämän hypokinesia. Kaksoisverihiutale-estolääkitystä jatkettiin. Potilas pysyi hemodynaamisesti vakaana, eikä rintakipua tai rytmihäiriöitä esiintynyt. Hänet kotiutettiin jäsennellyn kardiologisen seurannan ja sydänkuntoutusohjelman piiriin.</p>"
+            }
+          },
+          {
+            "title": "Plan of Care",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18776-5",
+                  "display": "Plan of care Note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<p><strong>Follow-up:</strong> Kardiologin vastaanotto 14 päivän kuluttua. Päivittäinen verenpaineen kotiseuranta. Tupakoinnin lopetusohjaus 7 päivän sisällä. Sydänkuntoutuksen vaihe II alkaa 3 viikon kuluttua. Lipidiprofiilin, HbA1c:n ja munuaisfunktion kontrolli 3 kuukauden kuluttua.</p><p><strong>Warning symptoms (call 112):</strong></p><ul><li>Yli 5 minuuttia kestävä rintakipu tai paineen tunne</li><li>Hengenahdistus levossa tai yöllinen paheneminen</li><li>Äkillinen huimaus, pyörtyminen tai lähes pyörtyminen</li><li>Äkillinen nilkkojen tai säärien turvotus</li><li>Verenvuoto, joka ei tyrehdy 10 minuutissa (verihiutale-estolääkityksen aikana)</li><li>Mikä tahansa uusi neurologinen oire (heikkous, puheen sammallus, näön menetys)</li></ul>"
+            }
+          }
+        ],
+        "resourceType": "Composition",
+        "id": "composition"
+      }
+    }
+  ]
+}
